@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Мария Шерстенникова](https://up.htmlacademy.ru/adaptive/16/user/461979).
-* Наставник: `Неизвестно`.
+* Наставник: [Светлана Корякина](https://up.htmlacademy.ru/htmlcss/24/user/477401).
 
 ---
 
