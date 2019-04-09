@@ -1,12 +1,165 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Мишка</title>
+</head>
+<body>
 
-  </body>
+
+  <header class="header">
+    <div class="wrapper">
+        <nav class="nav-menu">
+            <ul class="nav-menu__list">
+              <li class="nav-menu__item">
+                <a class="nav-menu__link" href="#">Каталог товаров</a>
+              </li>
+              <li class="nav-menu__item">
+                <a class="nav-menu__link" href="#">Вязание на заказ</a>
+              </li>
+              <li class="nav-menu__item">
+                <a class="nav-menu__link nav-menu__link--seach" href="#">Поиск по сайту</a>
+              </li>
+              <li class="nav-menu__item">
+                <a class="nav-menu__link nav-menu__link--cart" href="#">Корзина: пока пуста</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="top-menu">
+              <div class="wrapper">
+                <div class="top-menu__logo">
+                  <a class="top-menu__logo-link" href="#">
+                    <img class="top-menu__logo-img" src="img/mishka-logo-mobile.png" width="86" height="35" alt="Логотип Мишка">
+                  </a>
+                  <button class="nav-menu__hamburger" type="button">Открыть меню</button>
+
+                </div>
+              </div>
+            </div>
+    </div>
+  </header>
+  <main class="page-main">
+      <h1 class="header__title">Милые штуки ручной работы для дома</h1>
+      <div class="page-main__links">
+          <a class="page-main__link page-main__link--lightgreen" href="#">Предметы интерьеры</a>
+          <a class="page-main__link page-main__link--green" href="#">Детские игрушки</a>
+        </div>
+  <section class="featured">
+    <div class="wrapper">
+      <h2 class="featured__title">Вязаные корзинки</h2>
+      <p class="featured__product-week">Товар недели</p>
+      <p class="featured__advantage">Экологически чистая пряжа, ручная работа.
+        Доступны в шести расцветках, и трех размерах.</p>
+      <table class="featured__table">
+        <tr>
+          <td>Цвет:</td>
+          <td>«Тиффани»/серый</td>
+        </tr>
+        <tr>
+          <td>Диаметр:</td>
+          <td>25см</td>
+        </tr>
+        <tr>
+          <td>Высота:</td>
+          <td>15см</td>
+        </tr>
+      </table>
+      <div class="featured__cart">
+        <p class="featured__cart-img">
+          <a class="featured__cart-img-link" href="#">
+            <img class="featured__cart-img" src="img/triple-set-mobile.jpg" width="260" height="313"
+              alt="Вязаные корзинки">
+          </a>
+        </p>
+        <p class="featured__price">
+          Цена: 900 руб.
+        </p>
+        <p class="featured__btn">
+          <a class="btn" href="#">Заказать</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="wrapper">
+      <h2 class="about__title">Коротко о нас:</h2>
+      <ul class="about__advantage-list">
+        <li class="about__advantage-item about__advantage-item--flower">Экологически чистые материалы</li>
+        <li class="about__advantage-item about__advantage-item--price">Скандинавский стиль по российской цене</li>
+        <li class="about__advantage-item about__advantage-item--heart">Увеличивает лайки на фотографиях</li>
+        <li class="about__advantage-item about__advantage-item--roll">Связано вручную с любовью и умилением</li>
+        <li class="about__advantage-item about__advantage-item--airplane">Поддержка отечественного производителя</li>
+        <li class="about__advantage-item about__advantage-item--present">Поставляется в подарочной упаковке</li>
+      </ul>
+      <div class="about__reviews">
+        <h2 class="about__title">
+          Отзывы
+        </h2>
+        <p class="about__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков,
+          как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу
+          стали более
+          стильными, а также набирают больше лайков!</p>
+        <p class="about__signature">Анастасия Красильникова</p>
+        <p class="about__mail">@misssssiskras</p>
+        <div class="about__toggle">
+          <button class="about__arrows about__arrows--left" type="button"></button>
+          <button class="about__arrows about__arrows--right" type="button"></button>
+        </div>
+        <p class="about__btn">
+          <a class="btn" href="#">Написать</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="contacts">
+    <div class="wrapper">
+      <h3 class="title title__contacts">Контакты</h3>
+      <div class="contacts__us">
+        <p class="contacts__mail">e-mail:</p>
+        <p class="contacts__mail contacts__mail--underscore">info@mimimishkashop.ru</p>
+      </div>
+      <div class="contacts__us">
+        <p class="contacts__mail">адрес:</p>
+        <p class="contacts__mail contacts__mail--adress">г. Санкт-Петербург,
+          ул. Большая Конюшенная,
+          д. 19/8, офис 101</p>
+      </div>
+    </div>
+    <div class="contacts__map">
+      <img class="contacts__map-img contacts__map-img--small" src="img/map-mobile_1x.jpg" width="320" height="457" alt="г.Санкт-Петербург,
+      ул. Большая Конюшенная, д. 19/8, офис 101">
+    </div>
+    <div class="wrapper">
+      <p class="contacts__btn">
+        <a class="btn" href="#">Напишите нам</a>
+      </p>
+    </div>
+  </section>
+</main>
+  <footer class="page-footer">
+    <div class=wrapper>
+      <div class="page-footer__social social">
+        <ul class="page-footer__social-list">
+          <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Вконтакте">
+              <img class="page-footer__social-img" src="img/insta.png" width="21" height="21" alt="Инстаграм">
+            </a>
+          </li>
+          <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Фейсбук">
+              <img class="page-footer__social-img" src="img/fb.png" width="16" height="30" alt="Фейсбук">
+            </a>
+          </li>
+          <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Инстаграм">
+              <img class="page-footer__social-img" src="img/twitter.png" width="24" height="24" alt="Твиттер">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__down">
+        <b class="page-footer__down-text">Разработано</b>
+        <a class="page-footer__down-link" href="https://htmlacademy.ru"></a>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
