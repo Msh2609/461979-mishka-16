@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Мишка</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -27,6 +28,7 @@
             <a class="nav-menu__link nav-menu__link--cart" href="#">Корзина: пока пуста</a>
           </li>
         </ul>
+
       </nav>
       <div class="top-menu">
         <div class="wrapper top-menu__wrapper">
@@ -42,16 +44,24 @@
     <div class="separate">
       <div class="wrapper">
         <h1 class="separate__title">Милые штуки ручной работы для дома</h1>
-        <div class="separate__links">
-          <a class="separate__link separate__link--lightgreen" href="#">Предметы интерьеры</a>
-          <a class="separate__link separate__link--green" href="#">Детские игрушки</a>
-        </div>
       </div>
+        <div class="separate__links">
+          <a class="separate__link separate__link--lightgreen" href="#">
+            <span class="separate__link-span">Предметы<br>интерьеры</span>
+          </a>
+          <a class="separate__link separate__link--green" href="#">
+              <span class="separate__link-span">Детские<br>игрушки</span>
+          </a>
+        </div>
+
     </div>
     <section class="featured">
       <div class="wrapper">
+      <div class="featured__about">
         <h2 class="featured__title">Вязаные корзинки</h2>
         <p class="featured__product-week">Товар недели</p>
+      </div>
+      <div class="featured__all">
         <p class="featured__advantage">Экологически чистая пряжа, ручная работа.
           Доступны в шести расцветках, и трех размерах.</p>
         <table class="featured__table">
@@ -75,6 +85,7 @@
                 alt="Вязаные корзинки">
             </a>
           </p>
+        </div>
           <p class="featured__price">
             Цена: 900 руб.
           </p>
@@ -104,12 +115,16 @@
             как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу
             стали более
             стильными, а также набирают больше лайков!</p>
+            <div class="about__name-toggle">
+            <div class="about__name">
           <p class="about__signature">Анастасия Красильникова</p>
           <p class="about__mail">@misssssiskras</p>
+        </div>
           <div class="about__toggle">
             <button class="about__arrows about__arrows--left" type="button"></button>
             <button class="about__arrows about__arrows--right" type="button"></button>
           </div>
+        </div>
           <p class="about__btn">
             <a class="btn" href="#">Написать</a>
           </p>
@@ -144,8 +159,11 @@
     </section>
   </main>
   <footer class="page-footer">
-    <div class=wrapper>
+    <div class="wrapper">
       <div class="page-footer__social social">
+      <a class="page-footer__logo-link" href="#">
+        <span class="page-footer__logo-span"></span>
+      </a>
         <ul class="page-footer__social-list">
           <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Вконтакте">
               <img class="page-footer__social-img" src="img/insta.png" width="21" height="21" alt="Инстаграм">
@@ -163,7 +181,8 @@
       </div>
       <div class="page-footer__down">
         <b class="page-footer__down-text">Разработано</b>
-        <a class="page-footer__down-link" href="https://htmlacademy.ru"></a>
+        <a class="page-footer__down-link" href="https://htmlacademy.ru">
+          <img class="page-footer__social-img" src="img/logo-htmlacademy.svg" width="27" height="34" alt="Фейсбук"></a>
       </div>
     </div>
   </footer>
