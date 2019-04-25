@@ -39,85 +39,91 @@
   <section class="catalog">
       <h1 class="catalog__title">Каталог товаров</h1>
     <div class="wrapper">
-      <ul class="catalog__cart">
-        <li class="catalog__cart-item">
+      <div class="catalog__cart">
+        <div class="catalog__cart-item">
           <a class="catalog__cart-link" href="#">
-            <img class="catalog__cart-img" src="img/photo-1-mobile.jpg" width="260" height="198" alt="Вязаный зайчик">
+            <img class="catalog__cart-img catalog__cart-img--tab" src="img/photo-1-mobile.jpg" width="260" height="198" alt="Вязаный зайчик">
           </a>
+          <div class="catalog__name-price">
+          <div class="catalog__name-cart">
           <p class="catalog__designation">
             <b>Зайчик-попрыгайчик</b>
           </p>
-          <span>Рост 30, вес 200 г</span>
+          <span class="catalog__weight">Рост 30, вес 200 г</span>
+        </div>
           <div class="catalog__price-icone">
             <p class="catalog__price">1200 руб.</p>
             <a class="catalog__cart-link-icone" href="#"></a>
           </div>
-        </li>
-        <li class="catalog__cart-item">
-          <a class="catalog__cart-link" href="#">
-            <img class="catalog__cart-img" src="img/photo-1-mobile.jpg" width="260" height="198" alt="Вязаный зайчик">
-          </a>
-          <p class="catalog__designation">
-            <b>Зайчик-попрыгайчик</b>
-          </p>
-          <span>Рост 30, вес 200 г</span>
-          <div class="catalog__price-icone">
-            <p class="catalog__price">1200 руб.</p>
-            <a class="catalog__cart-link-icone" href="#"></a>
-          </div>
-        </li>
-        <li class="catalog__cart-item">
-          <a class="catalog__cart-link" href="#">
-            <img class="catalog__cart-img" src="img/photo-1-mobile.jpg" width="260" height="198" alt="Вязаный зайчик">
-          </a>
-          <p class="catalog__designation">
-            <b>Зайчик-попрыгайчик</b>
-          </p>
-          <span>Рост 30, вес 200 г</span>
-          <div class="catalog__price-icone">
-            <p class="catalog__price">1200 руб.</p>
-            <a class="catalog__cart-link-icone" href="#"></a>
-          </div>
-        </li>
-        <li class="catalog__cart-item">
-          <a class="catalog__cart-link" href="#">
-            <img class="catalog__cart-img" src="img/photo-1-mobile.jpg" width="260" height="198" alt="Вязаный зайчик">
-          </a>
-          <p class="catalog__designation">
-            <b>Зайчик-попрыгайчик</b>
-          </p>
-          <span>Рост 30, вес 200 г</span>
-          <div class="catalog__price-icone">
-            <p class="catalog__price">1200 руб.</p>
-            <a class="catalog__cart-link-icone" href="#"></a>
-          </div>
-        </li>
-      </ul>
+        </div>
+      </div>
+      <div class="catalog__cart-item">
+        <a class="catalog__cart-link" href="#">
+          <img class="catalog__cart-img catalog__cart-img--tab" src="img/photo-bowl-mobile@1x.jpg" width="260" height="198" alt="Вязаный зайчик">
+        </a>
+        <div class="catalog__name-price">
+        <div class="catalog__name-cart">
+        <p class="catalog__designation">
+          <b>Зайчик-попрыгайчик</b>
+        </p>
+        <span class="catalog__weight">Рост 30, вес 200 г</span>
+      </div>
+        <div class="catalog__price-icone">
+          <p class="catalog__price">1200 руб.</p>
+          <a class="catalog__cart-link-icone" href="#"></a>
+        </div>
+      </div>
+    </div>
+    <div class="catalog__cart-item">
+      <a class="catalog__cart-link" href="#">
+        <img class="catalog__cart-img catalog__cart-img--tab" src="img/photo-toys-mobile@1x.jpg" width="260" height="198" alt="Вязаный зайчик">
+      </a>
+      <div class="catalog__name-price">
+      <div class="catalog__name-cart">
+      <p class="catalog__designation">
+        <b>Зайчик-попрыгайчик</b>
+      </p>
+      <span class="catalog__weight">Рост 30, вес 200 г</span>
+    </div>
+      <div class="catalog__price-icone">
+        <p class="catalog__price">1200 руб.</p>
+        <a class="catalog__cart-link-icone" href="#"></a>
+      </div>
+    </div>
+  </div>
     </div>
   </section>
   <footer class="page-footer">
-    <div class=wrapper>
-      <div class="page-footer__social social">
-        <ul class="page-footer__social-list">
-          <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Вконтакте">
-              <img class="page-footer__social-img" src="img/insta.png" width="21" height="21" alt="Инстаграм">
-            </a>
-          </li>
-          <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Фейсбук">
-              <img class="page-footer__social-img" src="img/fb.png" width="16" height="30" alt="Фейсбук">
-            </a>
-          </li>
-          <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Инстаграм">
-              <img class="page-footer__social-img" src="img/twitter.png" width="24" height="24" alt="Твиттер">
-            </a>
-          </li>
-        </ul>
+      <div class="wrapper">
+        <div class="page-footer__container">
+
+          <div class="page-footer__logo">
+        <a class="page-footer__logo-link" href="#">
+          <span class="page-footer__logo-span"></span>
+        </a>
       </div>
-      <div class="page-footer__down">
-        <b class="page-footer__down-text">Разработано</b>
-        <a class="page-footer__down-link" href="https://htmlacademy.ru"></a>
+          <ul class="page-footer__social-list">
+            <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Вконтакте">
+                <img class="page-footer__social-img" src="img/insta.png" width="21" height="21" alt="Инстаграм">
+              </a>
+            </li>
+            <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Фейсбук">
+                <img class="page-footer__social-img" src="img/fb.png" width="16" height="30" alt="Фейсбук">
+              </a>
+            </li>
+            <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Инстаграм">
+                <img class="page-footer__social-img" src="img/twitter.png" width="24" height="24" alt="Твиттер">
+              </a>
+            </li>
+          </ul>
+
+        <div class="page-footer__down">
+          <b class="page-footer__down-text">Разработано</b>
+          <a class="page-footer__down-link" href="https://htmlacademy.ru">
+            <img class="page-footer__social-img" src="img/logo-htmlacademy.svg" width="27" height="34" alt="Фейсбук"></a>
+        </div>
       </div>
-    </div>
-  </footer>
+      </div>
+    </footer>
 </body>
 </html>

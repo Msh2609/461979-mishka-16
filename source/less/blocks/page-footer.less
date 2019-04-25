@@ -42,4 +42,36 @@
   width: 101px;
 }
 
+  .page-footer__logo-link {
+    display: none;
+
+  }
+
+  @media (min-width: 768px) {
+    .page-footer__logo-link {
+      display: block;
+    }
+
+    .page-footer__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+      height: 143px;
+      line-height: 143px;
+    }
+
+    .page-footer__social-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0;
+      width: 150px;
+    }
+
+    .page-footer__down {
+      width: 190px;
+      padding-top: 0;
+    }
+  }
 
