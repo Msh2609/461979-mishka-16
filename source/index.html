@@ -1,43 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Мишка</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-
   <header class="header">
-    <div class="wrapper">
-      <nav class="nav-menu">
-        <ul class="nav-menu__list">
-          <li class="nav-menu__item">
-            <a class="nav-menu__link" href="catalog.html">Каталог товаров</a>
-          </li>
-          <li class="nav-menu__item">
-            <a class="nav-menu__link" href="#">Вязание на заказ</a>
-          </li>
-          <li class="nav-menu__item">
-            <a class="nav-menu__link nav-menu__link--seach" href="#">Поиск по сайту</a>
-          </li>
-          <li class="nav-menu__item">
-            <a class="nav-menu__link nav-menu__link--cart" href="#">Корзина: пока пуста</a>
-          </li>
-        </ul>
-
-      </nav>
+    <div class="wrapper wrapper_header">
       <div class="top-menu">
-        <div class="wrapper top-menu__wrapper">
+        <div class=" top-menu__wrapper">
           <a class="top-menu__logo-link" href="#">
             <img class="top-menu__logo-img" src="img/mishka-logo-mobile.png" width="86" height="35" alt="Логотип Мишка">
           </a>
           <button class="top-menu__hamburger" type="button"></button>
         </div>
       </div>
+      <ul class="nav-menu__list nav-menu__list_1">
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="catalog.html">Каталог товаров</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link" href="#">Вязание на заказ</a>
+        </li>
+      </ul>
+      <ul class="nav-menu__list nav-menu__list_2">
+        <li class="nav-menu__item">
+          <a class="nav-menu__link nav-menu__link--seach" href="#">Поиск по сайту</a>
+        </li>
+        <li class="nav-menu__item">
+          <a class="nav-menu__link nav-menu__link--cart" href="#">Корзина: пока пуста</a>
+        </li>
+      </ul>
     </div>
   </header>
   <main class="page-main">
@@ -45,47 +40,47 @@
       <div class="wrapper">
         <h1 class="separate__title">Милые штуки ручной работы для дома</h1>
       </div>
-        <div class="separate__links">
-          <a class="separate__link separate__link--lightgreen" href="#">
-            <span class="separate__link-span">Предметы<br>интерьеры</span>
-          </a>
-          <a class="separate__link separate__link--green" href="#">
-              <span class="separate__link-span">Детские<br>игрушки</span>
-          </a>
-        </div>
+      <div class="separate__links">
+        <a class="separate__link separate__link--lightgreen" href="#">
+          <span class="separate__link-span">Предметы<br>интерьеры</span>
+        </a>
+        <a class="separate__link separate__link--green" href="#">
+          <span class="separate__link-span">Детские<br>игрушки</span>
+        </a>
+      </div>
 
     </div>
     <section class="featured">
       <div class="wrapper">
-      <div class="featured__about">
-        <h2 class="featured__title">Вязаные корзинки</h2>
-        <p class="featured__product-week">Товар недели</p>
-      </div>
-      <div class="featured__all">
-        <p class="featured__advantage">Экологически чистая пряжа, ручная работа.
-          Доступны в шести расцветках, и трех размерах.</p>
-        <table class="featured__table">
-          <tr class="featured__tr">
-            <td class="featured__td">Цвет:</td>
-            <td class="featured__td">«Тиффани»/серый</td>
-          </tr>
-          <tr class="featured__tr">
-            <td class="featured__td">Диаметр:</td>
-            <td class="featured__td">25см</td>
-          </tr>
-          <tr class="featured__tr">
-            <td class="featured__td">Высота:</td>
-            <td class="featured__td">15см</td>
-          </tr>
-        </table>
-        <div class="featured__cart">
-          <p class="featured__cart-img">
-            <a class="featured__cart-img-link" href="#">
-              <img class="featured__cart-img" src="img/triple-set-mobile.jpg" width="260" height="313"
-                alt="Вязаные корзинки">
-            </a>
-          </p>
+        <div class="featured__about">
+          <h2 class="featured__title">Вязаные корзинки</h2>
+          <p class="featured__product-week">Товар недели</p>
         </div>
+        <div class="featured__all">
+          <p class="featured__advantage">Экологически чистая пряжа, ручная работа.
+            Доступны в шести расцветках, и трех размерах.</p>
+          <table class="featured__table">
+            <tr class="featured__tr">
+              <td class="featured__td">Цвет:</td>
+              <td class="featured__td">«Тиффани»/серый</td>
+            </tr>
+            <tr class="featured__tr">
+              <td class="featured__td">Диаметр:</td>
+              <td class="featured__td">25см</td>
+            </tr>
+            <tr class="featured__tr">
+              <td class="featured__td">Высота:</td>
+              <td class="featured__td">15см</td>
+            </tr>
+          </table>
+          <div class="featured__cart">
+            <p class="featured__cart-img">
+              <a class="featured__cart-img-link" href="#">
+                <img class="featured__cart-img" src="img/triple-set-mobile.jpg" width="260" height="313"
+                  alt="Вязаные корзинки">
+              </a>
+            </p>
+          </div>
           <p class="featured__price">
             Цена: 900 руб.
           </p>
@@ -115,16 +110,16 @@
             как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу
             стали более
             стильными, а также набирают больше лайков!</p>
-            <div class="about__name-toggle">
+          <div class="about__name-toggle">
             <div class="about__name">
-          <p class="about__signature">Анастасия Красильникова</p>
-          <p class="about__mail">@misssssiskras</p>
-        </div>
-          <div class="about__toggle">
-            <button class="about__arrows about__arrows--left" type="button"></button>
-            <button class="about__arrows about__arrows--right" type="button"></button>
+              <p class="about__signature">Анастасия Красильникова</p>
+              <p class="about__mail">@misssssiskras</p>
+            </div>
+            <div class="about__toggle">
+              <button class="about__arrows about__arrows--left" type="button"></button>
+              <button class="about__arrows about__arrows--right" type="button"></button>
+            </div>
           </div>
-        </div>
           <p class="about__btn">
             <a class="btn" href="#">Написать</a>
           </p>
@@ -161,12 +156,12 @@
   <footer class="page-footer">
     <div class="wrapper">
       <div class="page-footer__container">
-     
+
         <div class="page-footer__logo">
-      <a class="page-footer__logo-link" href="#">
-        <span class="page-footer__logo-span"></span>
-      </a>
-    </div>
+          <a class="page-footer__logo-link" href="#">
+            <span class="page-footer__logo-span"></span>
+          </a>
+        </div>
         <ul class="page-footer__social-list">
           <li class="page-footer__social-item"><a class="page-footer__social-link" href="#" aria-label="Вконтакте">
               <img class="page-footer__social-img" src="img/insta.png" width="21" height="21" alt="Инстаграм">
@@ -182,12 +177,13 @@
           </li>
         </ul>
 
-      <div class="page-footer__down">
-        <b class="page-footer__down-text">Разработано</b>
-        <a class="page-footer__down-link" href="https://htmlacademy.ru">
-          <img class="page-footer__social-img" src="img/logo-htmlacademy.svg" width="27" height="34" alt="Фейсбук"></a>
+        <div class="page-footer__down">
+          <b class="page-footer__down-text">Разработано</b>
+          <a class="page-footer__down-link" href="https://htmlacademy.ru">
+            <img class="page-footer__social-img" src="img/logo-htmlacademy.svg" width="27" height="34"
+              alt="Фейсбук"></a>
+        </div>
       </div>
-    </div>
     </div>
   </footer>
 </body>

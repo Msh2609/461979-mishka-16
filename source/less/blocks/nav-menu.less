@@ -2,13 +2,11 @@
   min-height: 395px;
 }
 
-
 .nav-menu__list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   padding: 0;
-
 }
 
 .nav-menu__item {
@@ -30,7 +28,7 @@
 @media (min-width: 768px) {
   .nav-menu {
     min-height: 150px;
-    border: none
+    border: none;
   }
 }
 
@@ -38,5 +36,28 @@
   .nav-menu__list {
     display: flex;
     flex-direction: row;
+  }
+
+  .nav-menu__list_1 {
+    order: 3;
+  }
+
+  .nav-menu__list_2 {
+    order: 2;
+  }
+
+  .nav-menu__item {
+    border: none;
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .nav-menu__list_1 {
+    order: 1;
+  }
+
+  .nav-menu__list_2 {
+    order: 3;
   }
 }

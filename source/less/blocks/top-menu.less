@@ -1,6 +1,6 @@
 .top-menu {
   height: 80px;
-  border: 4px solid @stroke;
+  //border: 4px solid @stroke;
   position: relative;
 }
 
@@ -22,4 +22,35 @@
   background-image: url("../img/icon-menu-open.svg");
   width: 22px;
   height: 16px;
+}
+
+@media (min-width: 768px) {
+  .top-menu__hamburger {
+    display: none;
+  }
+
+  .wrapper_header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .top-menu {
+    flex-grow: 1;
+    order: 1;
+  }
+
+  .top-menu__wrapper {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1150px) {
+  .top-menu {
+    flex-grow: 1;
+    order: 2;
+  }
+
+  .top-menu__wrapper {
+    text-align: center;
+  }
 }
