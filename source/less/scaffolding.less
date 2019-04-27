@@ -3,8 +3,7 @@ body {
   min-width: 320px;
   margin: 0;
   padding: 0;
-
-  font-family: "opensans", sans-serif;
+  font-family: "opensans", "Arial", sans-serif;
   font-size: 10px;
 }
 
@@ -20,7 +19,7 @@ img {
   line-height: 52px;
   text-align: center;
   color: #000000;
-  font-size: 1.7em;
+  font-size: 17px;
   font-weight: 700;
   border: 2px solid #000000;
   box-sizing: border-box;
@@ -35,18 +34,17 @@ img {
 }
 
 .wrapper {
-  width: 260px;
   margin: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: @tablet-width) {
   .wrapper {
     width: 668px;
     margin: auto;
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: @desktop-width) {
   .wrapper {
     width: 1050px;
     margin: auto;
