@@ -1,37 +1,66 @@
-.featured {
-  border: 4px dashed @stroke;
-}
-
 .featured__title {
-  font-size: 2.5em;
+  font-size: 25px;
   font-weight: 700;
   margin: 0;
   margin-top: 30px;
 }
 
 .featured__product-week {
-  font-size: 1.7em;
+  font-size: 17px;
   font-weight: 700;
   margin: 0;
+  margin-bottom: 20px;
   color: #8dd0bb;
   text-transform: uppercase;
 }
 
 .featured__advantage {
-  font-size: 1.5em;
+  font-size: 15px;
+  min-width: 260px;
   margin: 0;
+  padding: 0;
 }
 
 .featured__td {
   border-bottom: 1px solid #ebebeb;
   padding-top: 13px;
   padding-bottom: 9px;
-  font-size: 1.5em;
+  font-size: 15px;
 }
 
 .featured__price {
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 15px;
   margin-top: 26px;
   margin-bottom: 26px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .featured__about {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .featured__product-week {
+    margin-top: 30px;
+    padding: 0;
+    width: 60px;
+  }
+
+  .featured {
+    position: relative;
+  }
+
+  .featured__cart {
+    position: absolute;
+    right: 80px;
+    top: 90px;
+  }
+
+  .featured__all {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+  }
 }

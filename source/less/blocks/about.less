@@ -1,29 +1,79 @@
 .about {
   margin-top: 32px;
-  border: 4px solid @stroke;
+}
+
+.about__reviews {
+  position: relative;
 }
 
 .about__title {
-  font-size: 2.5em;
+  font-size: 25px;
   margin-bottom: 30px;
 }
 
 .about__advantage-list {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .about__advantage-item {
-  font-size: 1.7em;
+  font-size: 17px;
   font-weight: 700;
+  width: 260px;
+  height: 110px;
 }
 
 .about__text {
-  font-size: 1.7em;
+  font-size: 17px;
   margin-bottom: 60px;
+  margin-top: 45px;
+  line-height: 2;
 }
 
 .about__signature {
-  font-size: 1.7em;
+  font-size: 17px;
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .about__advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about__name-toggle {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 167px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .about__advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 148px;
+    padding-right: 148px;
+    box-sizing: border-box;
+  }
+
+  .about__title {
+    padding-left: 148px;
+  }
+
+  .about__text {
+    padding-left: 148px;
+  }
 }
