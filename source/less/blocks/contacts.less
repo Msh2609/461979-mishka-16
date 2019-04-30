@@ -1,5 +1,5 @@
 .contacts {
-  border: 4px dashed @stroke;
+  position: relative;
 }
 
 .contacts__title {
@@ -9,4 +9,22 @@
 
 .contacts__us {
   font-size: 15px;
+}
+
+.contacts__map {
+  height: 450px;
+}
+
+@media (min-width: 768px) {
+  .contacts__wrapper {
+    width: 40%;
+  }
+
+  .contacts__map {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    height: 80%;
+    width: 45%;
+  }
 }
