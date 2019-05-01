@@ -12,9 +12,24 @@ img {
   height: auto;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .btn {
   display: block;
-  max-width: 260px;
   max-height: 52px;
   line-height: 52px;
   text-align: center;
@@ -27,6 +42,7 @@ img {
   text-decoration: none;
 }
 
+
 .wavy {
   background-image: url("../img/bg-zigzag-line.svg");
   background-repeat: no-repeat;
@@ -35,6 +51,7 @@ img {
 
 .wrapper {
   margin: auto;
+  padding: 0 30px;
 }
 
 @media (min-width: @tablet-width) {

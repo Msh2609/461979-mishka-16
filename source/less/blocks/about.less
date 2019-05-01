@@ -19,22 +19,106 @@
 }
 
 .about__advantage-item {
+  margin-bottom: 25px;
+  box-sizing: border-box;
   font-size: 17px;
   font-weight: 700;
-  width: 260px;
-  height: 110px;
+  min-width: 260px;
+  min-height: 110px;
+}
+
+.about__advantage-icon {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.about__advantage-icon--flower {
+  background-image: url("..//../img/icon-feature-flower.svg");
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 37px;
+}
+
+.about__advantage-icon--price {
+  background-image: url("..//../img/icon-feature-money.svg");
+  background-repeat: no-repeat;
+  width: 53px;
+  height: 27px;
+}
+
+.about__advantage-icon--heart {
+  background-image: url("..//../img/icon-feature-heart.svg");
+  width: 33px;
+  height: 28px;
+}
+
+.about__advantage-icon--roll {
+  background-image: url("..//../img/icon-feature-ball.svg");
+  width: 34px;
+  height: 34px;
+}
+
+.about__advantage-icon--airplane {
+  background-image: url("..//../img/icon-feature-rocket.svg");
+  width: 54px;
+  height: 23px;
+}
+
+.about__advantage-icon--present {
+  background-image: url("..//../img/icon-feature-gift.svg");
+  width: 32px;
+  height: 32px;
 }
 
 .about__text {
   font-size: 17px;
-  margin-bottom: 60px;
-  margin-top: 45px;
+  margin-bottom: 35px;
   line-height: 2;
 }
 
 .about__signature {
   font-size: 17px;
   font-weight: 700;
+  margin: 0;
+}
+
+.about__mail {
+  font-size: 17px;
+}
+
+.about__toggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about__arrows {
+  width: 50%;
+  height: 53px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+}
+
+.about__arrows--left {
+  display: inline-block;
+  background-image: url("../../img/icon-left-arrow.svg");
+  text-align: center;
+  background-repeat: no-repeat;
+  min-width: 50px;
+  height: 26px;
+}
+
+.about__arrows--right {
+  display: inline-block;
+  background-image: url("../../img/icon-right-arrow.svg");
+  text-align: center;
+  background-repeat: no-repeat;
+  min-width: 50px;
+  height: 26px;
 }
 
 @media (min-width: 768px) {
@@ -43,6 +127,10 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .about__advantage-item {
+    width: 40%;
   }
 
   .about__name-toggle {
